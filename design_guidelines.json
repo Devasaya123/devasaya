@@ -1,0 +1,79 @@
+{
+  "theme": "LIGHT",
+  "archetype": "Archetype 1 (Organic & Earthy) blended with Heritage Luxury",
+  "brand_name": "DEVASAYA",
+  "typography": {
+    "headings": "Cormorant Garamond",
+    "body": "Manrope",
+    "pairing_strategy": "Classic Serif Head + Clean Sans Body. Use 'Cormorant Garamond' for an ancient, royal heritage feel. Ensure tight tracking on large headings (`tracking-tight`) and loose leading on body copy (`leading-relaxed`) with 'Manrope' for readability.",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Manrope:wght@300;400;500;600&display=swap"
+  },
+  "colors": {
+    "primary_bg": "#FAF9F6",
+    "secondary_bg": "#F2EBE5",
+    "indigo": "#1A2441",
+    "madder_red": "#8B3A36",
+    "ochre": "#CBA135",
+    "text_main": "#111111",
+    "text_muted": "#4A4A4A",
+    "border_subtle": "#E5DCD3"
+  },
+  "visual_enhancers": {
+    "backgrounds": "Apply the 'ajrakh_texture' image as a repeating or fixed background layer with very low opacity (e.g., `opacity-5` or `opacity-10`) to provide a tactile, hand-crafted heritage feel rather than flat white spaces.",
+    "borders": "Use 1px solid borders in `border_subtle` (#E5DCD3) or 10% opacity indigo. Corners should be crisp (`rounded-none`) or extremely subtle (`rounded-sm`) to emulate traditional Victorian framing seen in their logo.",
+    "shadows": "Keep shadows diffuse, soft, and minimal. Avoid heavy modern drop-shadows. Emphasize optical clarity and light.",
+    "overlays": "Hero text should not just sit raw on an image. Use a gentle dark gradient overlay (`bg-gradient-to-t from-[#1A2441]/70 to-transparent`) or a framed solid/glass card to ensure readability without muddying the craft."
+  },
+  "motion": {
+    "scroll": "Smooth scrolling is highly recommended. Incorporate a library like `lenis` for premium weight and momentum.",
+    "transitions": "Slow, poetic fades. Use Framer Motion with `ease: [0.16, 1, 0.3, 1]` and `duration: 0.8` to 1.2s. Avoid fast, bouncy SaaS animations.",
+    "hover": "Subtle shifts: Text color shifts, images in lookbook scale up very slowly (`scale-105` over `0.6s`) for a cinematic, editorial feel."
+  },
+  "components": {
+    "buttons": "Square or `rounded-sm`. Use solid Indigo background with Ivory text for primary, or outline buttons with Indigo borders for secondary. 'Enquire on WhatsApp' CTA can use Madder Red or Ochre for a subtle, earthy highlight.",
+    "cards": "Cardless or very subtle 1px border. Focus on large, high-quality imagery with generous internal padding.",
+    "navigation": "Sticky, using elegant glassmorphism (`bg-[#FAF9F6]/80 backdrop-blur-xl`) with a 1px subtle bottom border, ensuring the serif logo sits proudly.",
+    "data_testids": "All interactive and key informational elements MUST include a `data-testid` attribute (e.g., `data-testid='nav-shop-link'`, `data-testid='enquire-whatsapp-btn'`).",
+    "icons": "Use Phosphor Icons (light or thin weight) for a refined, non-intrusive look."
+  },
+  "media": {
+    "logo": {
+      "url": "https://customer-assets.emergentagent.com/job_a9492608-2cdd-4d5d-810f-d98256e3feb7/artifacts/byue0uy1_ChatGPT%20Image%20Apr%2020%2C%202026%2C%2012_35_22%20AM.png",
+      "description": "DEVASAYA Brand Logo (Deep Indigo, ornate frame)"
+    },
+    "textures": {
+      "ajrakh_texture": "https://static.prod-images.emergentagent.com/jobs/a9492608-2cdd-4d5d-810f-d98256e3feb7/images/0ac0e6931b7a8cca3aca5ee185301815b920872aca729646902d18ec3058d047.png"
+    },
+    "hero_and_process": [
+      "https://static.prod-images.emergentagent.com/jobs/a9492608-2cdd-4d5d-810f-d98256e3feb7/images/32fa4f02216da1c565dcc444f83bd636fd11f1be05a40d4aad641475884d836d.png"
+    ],
+    "textiles_and_patterns": [
+      "https://images.pexels.com/photos/57565/pexels-photo-57565.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/4566670/pexels-photo-4566670.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ],
+    "artisans_dyeing": [
+      "https://images.unsplash.com/photo-1761808070278-dd73772be230?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwyfHxhcnRpc2FuJTIwZHllaW5nJTIwZmFicmljfGVufDB8fHx8MTc3NzIyMDE3MXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1761808070515-bfb862a85011?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHwzfHxhcnRpc2FuJTIwZHllaW5nJTIwZmFicmljfGVufDB8fHx8MTc3NzIyMDE3MXww&ixlib=rb-4.1.0&q=85"
+    ],
+    "lookbook_products": [
+      "https://images.unsplash.com/photo-1768803968260-3dab844c1476?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGluZGlhbiUyMGV0aG5pYyUyMHdlYXJ8ZW58MHx8fHwxNzc3MjIwMTcxfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1766043071333-5d82991da1ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGluZGlhbiUyMGV0aG5pYyUyMHdlYXJ8ZW58MHx8fHwxNzc3MjIwMTcxfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1764583473949-4645bbb6a2d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBibG9jayUyMHByaW50JTIwdGV4dGlsZXxlbnwwfHx8fDE3NzcyMjAxNzF8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1768651925876-637f68cd64f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBibG9jayUyMHByaW50JTIwdGV4dGlsZXxlbnwwfHx8fDE3NzcyMjAxNzF8MA&ixlib=rb-4.1.0&q=85"
+    ]
+  },
+  "layout_spacing": {
+    "padding": "Extremely generous. Use `py-20`, `py-32` for main sections. Let the content breathe like an art gallery.",
+    "grid": "Bento-style or wide asymmetrical grids for the Lookbook and Process sections to break monotony and create tension.",
+    "alignment": "Left-align paragraphs for readability. Center-align poetic headlines or quotes in 'The Ajrakh Story' to create a directed, emotional flow."
+  },
+  "instructions_to_main_agent": [
+    "Build out the frontend using React, Tailwind CSS, and Shadcn components where appropriate (customizing Shadcn heavily to remove the Vercel look).",
+    "Incorporate the `ajrakh_texture` as a repeating background layer with low opacity via Tailwind utility classes.",
+    "Include the Google Fonts link in your HTML, and configure Tailwind to use `Cormorant Garamond` for headings and `Manrope` for body.",
+    "Create a storytelling-first experience with slow fades and elegant reveals.",
+    "Implement the following pages/sections: Home, The Ajrakh Story, Artisans of Kutch, Process (Craftsmanship Journey), Shop/Collection, Lookbook, Journal/Blog, Sustainability & Values, About Devasaya, Contact.",
+    "In the Shop and Product Detail pages, use an 'Enquire on WhatsApp' CTA (linking to +91 9340853746) instead of a direct cart/checkout flow.",
+    "Add a simple Admin panel to manage products and journal posts."
+  ]
+}
