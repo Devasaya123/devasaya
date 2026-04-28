@@ -16,19 +16,6 @@ export default function AjrakhStory() {
       <SectionDivider />
 
       <section className="max-w-3xl mx-auto px-6 pb-12 space-y-10 text-mutedink leading-loose text-[17px]">
-        <p>
-          Long before borders existed, before the Mughals, before language as we know it — there was Ajrakh.
-          Fragments of indigo-dyed cloth uncovered at Mohenjo-daro suggest that the craft was practiced over
-          four thousand years ago, making Ajrakh one of the oldest surviving textile traditions on earth.
-        </p>
-        <p>
-          The name itself is contested — some say it comes from the Arabic <em>azrak</em>, meaning blue;
-          others insist it is from the Sanskrit <em>aaj rakh</em>, "keep it today" — a request from the
-          impatient lover to the artisan who would say, "wait, the cloth is not yet done."
-        </p>
-        <blockquote className="serif-title text-3xl text-indigo border-l-2 border-ochre pl-6 my-12 italic">
-          To wear Ajrakh is to wear three weeks of unhurried craft — and four thousand years of memory.
-        </blockquote>
         <h2 className="serif-title text-4xl text-indigo pt-6">Rooted in Kutch</h2>
         <p>
           The craft found its modern home in the salt-flat villages of Kutch, Gujarat — particularly in
