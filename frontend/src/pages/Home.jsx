@@ -73,8 +73,7 @@ export default function Home() {
         <div>
           <p className="eyebrow mb-6">Our Atelier</p>
           <h2 className="serif-title text-4xl sm:text-5xl text-indigo mb-8 leading-tight">
-            Where passion meets craftsmanship<br />
-            <span className="text-2xl sm:text-3xl tracking-[0.25em] uppercase font-sans font-light text-madder">in our atelier</span>
+            Where passion meets craftsmanship.
           </h2>
           <p className="text-mutedink leading-relaxed mb-6 text-[17px]">
             From the dunes of Kutch, our artisan community carries forward Ajrakh printing with passion, precision, and pride. Each piece is a labour of love.
