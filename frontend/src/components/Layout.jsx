@@ -148,7 +148,7 @@ export default function Layout() {
             <ul className="space-y-3 text-sm text-mutedink">
               <li className="flex items-center gap-2"><Phone size={14} /> +91 93408 53746</li>
               <li className="flex items-center gap-2"><Mail size={14} /> devasaya.24@gmail.com</li>
-              <li className="flex items-center gap-2"><Instagram size={14} /> @devasaya.atelier</li>
+              <li className="flex items-center gap-2"><Instagram size={14} /> _devasaya_</li>
             </ul>
           </div>
         </div>
