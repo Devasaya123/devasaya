@@ -140,22 +140,6 @@ SEED_PRODUCTS = [
         "images": ["https://images.pexels.com/photos/4566670/pexels-photo-4566670.jpeg?auto=compress&cs=tinysrgb&w=900"],
     },
     {
-        "name": "Kutch Heritage Cordset",
-        "category": "Cordsets",
-        "price": 6500,
-        "fabric": "Cotton",
-        "description": "A coordinated kurta-and-pant cordset in authentic Ajrakh — for those who prefer their stories told in matched sets.",
-        "images": ["https://images.pexels.com/photos/57565/pexels-photo-57565.jpeg?auto=compress&cs=tinysrgb&w=900"],
-    },
-    {
-        "name": "Modal Silk Indigo Cordset",
-        "category": "Cordsets",
-        "price": 7800,
-        "fabric": "Modal Silk",
-        "description": "Lustrous modal silk cordset hand-printed in deep indigo and madder — relaxed tailoring, ceremonial soul.",
-        "images": ["https://images.unsplash.com/photo-1761808070278-dd73772be230?crop=entropy&cs=srgb&fm=jpg&w=900"],
-    },
-    {
         "name": "Devi Kaftan in Indigo",
         "category": "Kaftans",
         "price": 5600,
