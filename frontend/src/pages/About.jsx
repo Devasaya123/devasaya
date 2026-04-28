@@ -4,15 +4,15 @@ const LOGO_URL =
 export default function About() {
   return (
     <div className="ajrakh-bg" data-testid="about-page">
-      <header className="pt-20 pb-6 px-6 text-center max-w-3xl mx-auto fade-stagger">
-        <img src={LOGO_URL} alt="Devasaya" className="h-24 w-24 object-contain mx-auto mb-5 opacity-90" />
-        <p className="eyebrow mb-4">About Devasaya</p>
-        <h1 className="serif-title text-5xl sm:text-6xl text-indigo mb-2 leading-[1.05]">
-          Custodians of an<br /><em className="font-light">ancient cloth.</em>
+      <header className="pt-10 pb-2 px-6 text-center max-w-3xl mx-auto fade-stagger">
+        <img src={LOGO_URL} alt="Devasaya" className="h-16 w-16 object-contain mx-auto mb-3 opacity-90" />
+        <p className="eyebrow mb-2">About Devasaya</p>
+        <h1 className="serif-title text-4xl sm:text-5xl text-indigo mb-1 leading-[1.05]">
+          Custodians of an <em className="font-light">ancient cloth.</em>
         </h1>
       </header>
 
-      <section className="max-w-3xl mx-auto px-6 pt-8 pb-20 space-y-8 text-mutedink leading-loose text-[17px]">
+      <section className="max-w-3xl mx-auto px-6 pt-4 pb-16 space-y-6 text-mutedink leading-relaxed text-[16px]">
         <p>
           Devasaya was born from a simple, stubborn belief: that the cloth our ancestors wore — printed by hand, dyed with plants, finished by sunlight — has a place in the modern wardrobe, not just in museums.
         </p>
