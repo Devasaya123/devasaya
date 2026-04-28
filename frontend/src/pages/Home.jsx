@@ -91,7 +91,7 @@ export default function Home() {
       {/* Reach Us */}
       <section className="py-20 px-6 lg:px-10 max-w-3xl mx-auto text-center" data-testid="reach-us-section">
         <p className="eyebrow mb-5">Reach Us</p>
-        <h2 className="serif-title text-4xl text-indigo mb-8">Stay close to the loom</h2>
+        <h2 className="serif-title text-4xl text-indigo mb-8">Stay to the craft</h2>
         <p className="text-mutedink leading-relaxed mb-8">
           Follow our quiet daily journal of cloth, colour and conversation.
         </p>
