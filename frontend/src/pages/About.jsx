@@ -31,13 +31,6 @@ export default function About() {
           <li>· Garments made to last decades, not seasons.</li>
           <li>· Custom orders welcomed — yardage, tailoring, and export-ready packaging.</li>
         </ul>
-        <h2 className="serif-title text-4xl text-indigo pt-6">A small atelier with a long memory</h2>
-        <p>
-          We are a small team. We will not ship you the most pieces, the fastest. But what we send you will carry the rhythm of a master's hand, the patience of a fermented vat, the warmth of the Kutch sun, and the unmistakable gravity of something made with care.
-        </p>
-        <p className="serif-title italic text-indigo text-2xl pt-6 text-center">
-          — Devasaya, est. with reverence.
-        </p>
       </section>
     </div>
   );
