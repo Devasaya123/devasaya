@@ -82,7 +82,7 @@ export default function Admin() {
               <h2 className="serif-title text-2xl text-indigo">Add Product</h2>
               <input className="w-full border-b border-indigo/30 py-2 bg-transparent focus:outline-none" placeholder="Name" value={pForm.name} onChange={(e) => setPForm({ ...pForm, name: e.target.value })} required data-testid="admin-product-name" />
               <select className="w-full border-b border-indigo/30 py-2 bg-transparent focus:outline-none" value={pForm.category} onChange={(e) => setPForm({ ...pForm, category: e.target.value })} data-testid="admin-product-category">
-                {["Sarees", "Dupattas", "Fabrics", "Kaftans"].map((c) => <option key={c}>{c}</option>)}
+                {["Sarees", "Shirts", "Cordsets", "Kaftans", "Modal 3 Piece Suits"].map((c) => <option key={c}>{c}</option>)}
               </select>
               <input type="number" className="w-full border-b border-indigo/30 py-2 bg-transparent focus:outline-none" placeholder="Price (INR)" value={pForm.price} onChange={(e) => setPForm({ ...pForm, price: e.target.value })} required data-testid="admin-product-price" />
               <input className="w-full border-b border-indigo/30 py-2 bg-transparent focus:outline-none" placeholder="Fabric" value={pForm.fabric} onChange={(e) => setPForm({ ...pForm, fabric: e.target.value })} data-testid="admin-product-fabric" />

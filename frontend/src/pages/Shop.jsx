@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { fetchProducts } from "../lib/api";
 
-const CATEGORIES = ["All", "Sarees", "Dupattas", "Fabrics", "Kaftans"];
+const CATEGORIES = ["All", "Sarees", "Shirts", "Cordsets", "Kaftans", "Modal 3 Piece Suits"];
 
 export default function Shop() {
   const [products, setProducts] = useState([]);
