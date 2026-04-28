@@ -30,11 +30,12 @@ def now_iso() -> str:
 class Product(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     name: str
-    category: str  # Sarees | Dupattas | Fabrics | Kaftans
+    category: str  # Sarees | Shirts | Cordsets | Kaftans | Modal 3 Piece Suits
     price: int  # INR
     fabric: str
     description: str
     images: List[str] = []
+    sizes: List[str] = []
     featured: bool = False
     in_stock: bool = True
     created_at: str = Field(default_factory=now_iso)
@@ -47,6 +48,7 @@ class ProductCreate(BaseModel):
     fabric: str
     description: str
     images: List[str] = []
+    sizes: List[str] = []
     featured: bool = False
     in_stock: bool = True
 

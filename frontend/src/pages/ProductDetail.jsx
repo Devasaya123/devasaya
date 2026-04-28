@@ -50,6 +50,16 @@ export default function ProductDetail() {
               <p className="eyebrow mb-2">Fabric</p>
               <p className="text-mutedink">{p.fabric}</p>
             </div>
+            {p.sizes && p.sizes.length > 0 && (
+              <div>
+                <p className="eyebrow mb-3">Available Sizes</p>
+                <div className="flex gap-3" data-testid="product-sizes">
+                  {p.sizes.map((s) => (
+                    <span key={s} className="border border-indigo/40 px-4 py-2 text-sm tracking-[0.2em] uppercase text-indigo">{s}</span>
+                  ))}
+                </div>
+              </div>
+            )}
             <div>
               <p className="eyebrow mb-2">The Story</p>
               <p className="text-mutedink leading-relaxed">{p.description}</p>
