@@ -1,11 +1,9 @@
-import SectionDivider from "../components/SectionDivider";
-
 export default function AjrakhStory() {
   return (
     <article className="ajrakh-pattern" data-testid="story-page">
-      <header className="pt-32 pb-20 px-6 text-center max-w-3xl mx-auto fade-stagger">
+      <header className="pt-24 pb-8 px-6 text-center max-w-3xl mx-auto fade-stagger">
         <p className="eyebrow mb-6">Heritage</p>
-        <h1 className="serif-title text-5xl sm:text-7xl text-indigo mb-8 leading-[1.05]">
+        <h1 className="serif-title text-5xl sm:text-7xl text-indigo mb-6 leading-[1.05]">
           The Ajrakh Story
         </h1>
         <p className="text-mutedink leading-relaxed text-lg italic">
@@ -13,16 +11,14 @@ export default function AjrakhStory() {
         </p>
       </header>
 
-      <SectionDivider />
-
-      <section className="max-w-3xl mx-auto px-6 text-center pb-4">
+      <section className="max-w-3xl mx-auto px-6 pt-4 pb-6 text-center">
         <blockquote className="serif-title italic text-3xl sm:text-4xl text-indigo leading-snug" data-testid="story-headline-quote">
           "An art form shaped by nature, time, and skilled hands.<br />
           Ajrakh isn't made fast — it's made forever."
         </blockquote>
       </section>
 
-      <section className="max-w-3xl mx-auto px-6 pb-12 space-y-10 text-mutedink leading-loose text-[17px]">
+      <section className="max-w-3xl mx-auto px-6 pt-6 pb-16 space-y-10 text-mutedink leading-loose text-[17px]">
         <h2 className="serif-title text-4xl text-indigo pt-6">Rooted in Kutch</h2>
         <p>
           The craft found its modern home in the salt-flat villages of Kutch, Gujarat — particularly in
@@ -53,8 +49,6 @@ export default function AjrakhStory() {
           deliberate continuation of a craft that has outlived empires.
         </p>
       </section>
-
-      <SectionDivider />
     </article>
   );
 }
