@@ -15,6 +15,13 @@ export default function AjrakhStory() {
 
       <SectionDivider />
 
+      <section className="max-w-3xl mx-auto px-6 text-center pb-4">
+        <blockquote className="serif-title italic text-3xl sm:text-4xl text-indigo leading-snug" data-testid="story-headline-quote">
+          "An art form shaped by nature, time, and skilled hands.<br />
+          Ajrakh isn't made fast — it's made forever."
+        </blockquote>
+      </section>
+
       <section className="max-w-3xl mx-auto px-6 pb-12 space-y-10 text-mutedink leading-loose text-[17px]">
         <h2 className="serif-title text-4xl text-indigo pt-6">Rooted in Kutch</h2>
         <p>
