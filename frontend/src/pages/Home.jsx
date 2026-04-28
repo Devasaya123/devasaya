@@ -115,8 +115,8 @@ export default function Home() {
           <h2 className="serif-title text-ivory text-4xl sm:text-5xl mb-8 leading-tight">
             "Ajrakh is not just a print — it is a statement of culture, sustainability, and luxury."
           </h2>
-          <Link to="/artisans" className="btn-outline border-ivory text-ivory hover:bg-ivory hover:text-indigo" data-testid="meet-artisans-btn">
-            Meet our artisans
+          <Link to="/shop" className="btn-outline border-ivory text-ivory hover:bg-ivory hover:text-indigo" data-testid="explore-collection-btn">
+            Explore the collection
           </Link>
         </div>
       </section>
