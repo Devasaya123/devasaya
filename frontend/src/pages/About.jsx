@@ -1,5 +1,5 @@
 const LOGO_URL =
-  "https://customer-assets.emergentagent.com/job_a9492608-2cdd-4d5d-810f-d98256e3feb7/artifacts/byue0uy1_ChatGPT%20Image%20Apr%2020%2C%202026%2C%2012_35_22%20AM.png";
+  "https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/f8iwx5x9_ChatGPT_Image_Apr_20__2026__12_35_22_AM-removebg-preview.png";
 
 export default function About() {
   return (
