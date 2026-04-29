@@ -1,8 +1,7 @@
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Menu, X, Instagram, Mail, Phone } from "lucide-react";
-import { subscribeNewsletter } from "../lib/api";
-import { Toaster, toast } from "sonner";
+import { Toaster } from "sonner";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -18,25 +17,12 @@ const LOGO_URL =
 
 export default function Layout() {
   const [open, setOpen] = useState(false);
-  const [email, setEmail] = useState("");
   const location = useLocation();
 
   useEffect(() => {
     setOpen(false);
     window.scrollTo({ top: 0, behavior: "instant" });
   }, [location.pathname]);
-
-  const handleNewsletter = async (e) => {
-    e.preventDefault();
-    if (!email) return;
-    try {
-      await subscribeNewsletter(email);
-      toast.success("Welcome to the atelier — check your inbox soon.");
-      setEmail("");
-    } catch {
-      toast.error("Could not subscribe right now.");
-    }
-  };
 
   return (
     <div className="min-h-screen bg-ivory text-[#111] flex flex-col">
@@ -108,24 +94,10 @@ export default function Layout() {
       {/* Footer */}
       <footer className="border-t border-subtle bg-sand mt-24" data-testid="site-footer">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-20 grid lg:grid-cols-4 gap-12">
-          <div className="lg:col-span-2">
-            <h3 className="serif-title text-4xl text-indigo mb-6">A letter from the loom</h3>
-            <p className="text-mutedink leading-relaxed max-w-md mb-6">
-              Subscribe for stories from Kutch, new collection releases, and artisan
-              interviews — once a season, never more.
-            </p>
-            <form onSubmit={handleNewsletter} className="flex flex-col sm:flex-row gap-3 max-w-md" data-testid="newsletter-form">
-              <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="your@email.com"
-                className="flex-1 bg-transparent border-b border-indigo/40 px-1 py-3 text-sm focus:outline-none focus:border-indigo placeholder:text-mutedink/60"
-                data-testid="newsletter-email-input"
-              />
-              <button type="submit" className="btn-primary" data-testid="newsletter-submit-btn">Subscribe</button>
-            </form>
+          <div className="lg:col-span-2 flex flex-col items-start" data-testid="footer-brand">
+            <img src={LOGO_URL} alt="Devasaya — Handicraft Apparel" className="h-40 w-40 object-contain mb-6 opacity-95" />
+            <p className="serif-title text-3xl text-indigo mb-2 tracking-wider">DEVASAYA</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-mutedink">Handicraft Apparel</p>
           </div>
 
           <div>
