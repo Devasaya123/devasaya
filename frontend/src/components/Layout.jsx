@@ -94,10 +94,8 @@ export default function Layout() {
       {/* Footer */}
       <footer className="border-t border-subtle bg-sand mt-24" data-testid="site-footer">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-20 grid lg:grid-cols-4 gap-12">
-          <div className="lg:col-span-2 flex flex-col items-start" data-testid="footer-brand">
-            <img src={LOGO_URL} alt="Devasaya — Handicraft Apparel" className="h-40 w-40 object-contain mb-6 opacity-95" />
-            <p className="serif-title text-3xl text-indigo mb-2 tracking-wider">DEVASAYA</p>
-            <p className="text-xs uppercase tracking-[0.3em] text-mutedink">Handicraft Apparel</p>
+          <div className="lg:col-span-2 flex flex-col justify-center items-center lg:items-start" data-testid="footer-brand">
+            <img src={LOGO_URL} alt="Devasaya — Handicraft Apparel" className="w-full max-w-[420px] h-auto object-contain" />
           </div>
 
           <div>
