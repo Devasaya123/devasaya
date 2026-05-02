@@ -36,12 +36,12 @@ export default function Home() {
       </section>
 
       {/* Why Ajrakh — Pillars */}
-      <section className="py-24 lg:py-32 px-6 lg:px-10 max-w-7xl mx-auto" data-testid="pillars-section">
-        <div className="text-center mb-16">
-          <p className="eyebrow mb-4">Why Ajrakh</p>
-          <h2 className="serif-title text-4xl sm:text-5xl text-indigo">A weave of culture, craft & conscience</h2>
+      <section className="py-14 lg:py-20 px-6 lg:px-10 max-w-7xl mx-auto" data-testid="pillars-section">
+        <div className="text-center mb-10">
+          <p className="eyebrow mb-3">Why Ajrakh</p>
+          <h2 className="serif-title text-3xl sm:text-4xl text-indigo">A weave of culture, craft & conscience</h2>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-10 fade-stagger">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 fade-stagger">
           {[
             { t: "Heritage Craft", d: "Traced back to the Indus Valley Civilisation — a living archaeology of textile." },
             { t: "Eco-Friendly", d: "Only natural, skin-safe dyes are used — drawn from plant, root and earth." },
@@ -56,8 +56,8 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="mt-20 text-center">
-          <p className="serif-title italic text-2xl sm:text-3xl text-indigo tracking-wide" data-testid="brand-tagline">
+        <div className="mt-12 text-center">
+          <p className="serif-title italic text-xl sm:text-2xl text-indigo tracking-wide" data-testid="brand-tagline">
             Handcrafted &nbsp;·&nbsp; Natural Dyes &nbsp;·&nbsp; Sustainable &nbsp;·&nbsp; Timeless &nbsp;·&nbsp; Conscious
           </p>
         </div>
