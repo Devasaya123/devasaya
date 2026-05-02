@@ -8,6 +8,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Sustainability from "./pages/Sustainability";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Customisation from "./pages/Customisation";
 import Admin from "./pages/Admin";
 
 function App() {
