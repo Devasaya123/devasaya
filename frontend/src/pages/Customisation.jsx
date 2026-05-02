@@ -33,19 +33,19 @@ export default function Customisation() {
   return (
     <div className="ajrakh-bg" data-testid="customisation-page">
       {/* Header */}
-      <header className="pt-20 pb-10 px-6 text-center max-w-3xl mx-auto fade-stagger">
-        <p className="eyebrow mb-5">For Brands & Boutiques</p>
-        <h1 className="serif-title text-5xl sm:text-6xl text-indigo mb-4 leading-[1.05]" data-testid="customisation-title">
+      <header className="pt-12 pb-4 px-6 text-center max-w-3xl mx-auto fade-stagger">
+        <p className="eyebrow mb-3">For Brands & Boutiques</p>
+        <h1 className="serif-title text-4xl sm:text-5xl text-indigo mb-3 leading-[1.05]" data-testid="customisation-title">
           Bulk Stitching & Customisation
         </h1>
-        <p className="serif-title italic text-2xl text-madder">
+        <p className="serif-title italic text-xl text-madder">
           Tailored solutions for your brand.
         </p>
       </header>
 
       {/* Intro */}
-      <section className="max-w-3xl mx-auto px-6 pb-14 text-center">
-        <p className="text-mutedink leading-relaxed text-[17px]">
+      <section className="max-w-3xl mx-auto px-6 pb-8 text-center">
+        <p className="text-mutedink leading-relaxed text-[16px]">
           At <span className="serif-title text-indigo">Devasaya</span>, we go beyond ready-to-wear. We offer end-to-end
           bulk stitching and customisation services designed for brands,
           boutiques, and businesses seeking distinctive, handcrafted apparel
@@ -54,36 +54,36 @@ export default function Customisation() {
       </section>
 
       {/* What We Offer */}
-      <section className="max-w-6xl mx-auto px-6 lg:px-10 pb-16" data-testid="services-grid">
-        <div className="text-center mb-12">
-          <p className="eyebrow mb-3">What We Offer</p>
-          <h2 className="serif-title text-4xl text-indigo">An atelier, at your service</h2>
+      <section className="max-w-6xl mx-auto px-6 lg:px-10 pb-10" data-testid="services-grid">
+        <div className="text-center mb-8">
+          <p className="eyebrow mb-2">What We Offer</p>
+          <h2 className="serif-title text-3xl text-indigo">An atelier, at your service</h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-6">
           {SERVICES.map((s) => (
             <div
               key={s.t}
-              className="border border-subtle bg-ivory/70 p-10 hover:border-indigo/40 transition-colors duration-500"
+              className="border border-subtle bg-ivory/70 p-7 hover:border-indigo/40 transition-colors duration-500"
               data-testid={`service-${s.t.toLowerCase().replace(/\s+/g, "-").replace(/&/g, "and")}`}
             >
-              <s.icon className="text-madder mb-5" size={28} strokeWidth={1.2} />
-              <h3 className="serif-title text-2xl text-indigo mb-3">{s.t}</h3>
-              <p className="text-mutedink leading-relaxed text-[15px]">{s.d}</p>
+              <s.icon className="text-madder mb-4" size={24} strokeWidth={1.2} />
+              <h3 className="serif-title text-xl text-indigo mb-2">{s.t}</h3>
+              <p className="text-mutedink leading-relaxed text-[14px]">{s.d}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* CTA */}
-      <section className="relative py-24 mt-8" data-testid="customisation-cta">
+      <section className="relative py-14 mt-4" data-testid="customisation-cta">
         <div className="absolute inset-0 ajrakh-pattern" />
         <div className="relative max-w-3xl mx-auto px-6 text-center">
-          <p className="eyebrow mb-5">Begin Your Journey</p>
-          <h2 className="serif-title text-4xl sm:text-5xl text-indigo mb-6 leading-tight">
+          <p className="eyebrow mb-3">Begin Your Journey</p>
+          <h2 className="serif-title text-3xl sm:text-4xl text-indigo mb-4 leading-tight">
             Partner with Devasaya to create collections that embody quiet luxury and enduring craftsmanship.
           </h2>
-          <p className="text-mutedink leading-relaxed mb-10 max-w-xl mx-auto">
+          <p className="text-mutedink leading-relaxed mb-7 max-w-xl mx-auto">
             Connect with us to initiate your production.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
