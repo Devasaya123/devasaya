@@ -46,7 +46,7 @@ export default function Customisation() {
       {/* Intro */}
       <section className="max-w-3xl mx-auto px-6 pb-8 text-center">
         <p className="text-mutedink leading-relaxed text-[16px]">
-          At <span className="serif-title text-indigo">Devasaya</span>, we go beyond ready-to-wear. We offer end-to-end
+          At <span className="serif-title text-indigo text-2xl sm:text-3xl align-middle">Devasaya</span>, we go beyond ready-to-wear. We offer end-to-end
           bulk stitching and customisation services designed for brands,
           boutiques, and businesses seeking distinctive, handcrafted apparel
           rooted in authentic Ajrakh artistry.
