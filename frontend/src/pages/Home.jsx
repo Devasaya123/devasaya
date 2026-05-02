@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 const HERO_IMG = "https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/8tbo8tr8_02-3.jpg";
 const STORY_IMG = "https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/d3daizb3_972fa4_7bab48afcb49450cba799620b4dab7d1~mv2.avif";
-const ARTISAN_IMG = "https://images.unsplash.com/photo-1761808070515-bfb862a85011?crop=entropy&cs=srgb&fm=jpg&w=1400";
+const ARTISAN_IMG = "https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/y178c651_WhatsApp%20Image%202026-05-02%20at%2012.15.27%20PM%20%281%29.jpeg";
 
 export default function Home() {
   return (
