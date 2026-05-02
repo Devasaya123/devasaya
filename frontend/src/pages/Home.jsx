@@ -111,7 +111,7 @@ export default function Home() {
         <img src={ARTISAN_IMG} alt="Artisan" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-indigo-deep/75" />
         <div className="relative max-w-3xl mx-auto px-6 text-center">
-          <p className="eyebrow text-ochre mb-6">The Hands Behind the Cloth</p>
+          <p className="text-xs uppercase tracking-[0.35em] font-bold text-ivory mb-6">The Hands Behind the Cloth</p>
           <h2 className="serif-title text-ivory text-4xl sm:text-5xl mb-8 leading-tight">
             "Ajrakh is not just a print — it is a statement of culture, sustainability, and luxury."
           </h2>
