@@ -18,16 +18,20 @@ export default function AjrakhStory() {
         </blockquote>
       </section>
 
-      <figure className="max-w-6xl mx-auto px-6 lg:px-10 pt-8 pb-12" data-testid="story-feature-image">
-        <div className="aspect-[21/9] overflow-hidden">
-          <img
-            src="https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/7c6yahjh_33-3.jpg"
-            alt="Hand-block printed Ajrakh fabric in madder red and indigo"
-            className="w-full h-full object-cover transition-transform duration-[1.6s] hover:scale-105"
+      <figure className="max-w-6xl mx-auto px-6 lg:px-10 pt-8 pb-12" data-testid="story-feature-video">
+        <div className="aspect-[21/9] overflow-hidden bg-indigo-deep">
+          <video
+            src="https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/hfzgfmnr_Video%20Project.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            className="w-full h-full object-cover"
           />
         </div>
         <figcaption className="text-center mt-4 text-xs tracking-[0.3em] uppercase text-mutedink">
-          Madder & Indigo · Hand-block printed in Kutch
+          The Ajrakh atelier · A quiet film from Kutch
         </figcaption>
       </figure>
 
