@@ -21,12 +21,18 @@ export default function AjrakhStory() {
       <figure className="max-w-6xl mx-auto px-6 lg:px-10 pt-8 pb-12" data-testid="story-feature-video">
         <div className="aspect-[21/9] overflow-hidden bg-indigo-deep">
           <video
-            src="https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/hfzgfmnr_Video%20Project.mp4"
+            src="https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/f67qs1jx_WhatsApp%20Video%202026-05-02%20at%207.29.40%20PM.mp4#t=0,10"
             autoPlay
             muted
             loop
             playsInline
             preload="metadata"
+            onTimeUpdate={(e) => {
+              if (e.currentTarget.currentTime >= 10) {
+                e.currentTarget.currentTime = 0;
+                e.currentTarget.play().catch(() => {});
+              }
+            }}
             className="w-full h-full object-cover"
           />
         </div>
