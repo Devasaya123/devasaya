@@ -7,6 +7,7 @@ const navLinks = [
   { to: "/", label: "Home" },
   { to: "/story", label: "The Ajrakh Story" },
   { to: "/shop", label: "Shop" },
+  { to: "/customisation", label: "Customisation & Bulk" },
   { to: "/sustainability", label: "Sustainability" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
@@ -103,6 +104,7 @@ export default function Layout() {
             <ul className="space-y-2 text-sm text-mutedink">
               <li><Link to="/story" className="link-underline">The Ajrakh Story</Link></li>
               <li><Link to="/sustainability" className="link-underline">Sustainability</Link></li>
+              <li><Link to="/customisation" className="link-underline">Customisation & Bulk Orders</Link></li>
               <li><Link to="/about" className="link-underline">About Devasaya</Link></li>
               <li><Link to="/shop" className="link-underline">Shop</Link></li>
               <li><Link to="/contact" className="link-underline">Contact</Link></li>

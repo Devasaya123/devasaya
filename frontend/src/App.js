@@ -22,6 +22,7 @@ function App() {
           <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/customisation" element={<Customisation />} />
           <Route path="/admin" element={<Admin />} />
         </Route>
       </Routes>
