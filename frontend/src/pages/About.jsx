@@ -4,6 +4,16 @@ const LOGO_URL =
 export default function About() {
   return (
     <div className="ajrakh-bg" data-testid="about-page">
+      <figure className="w-full" data-testid="about-feature-image">
+        <div className="aspect-[21/9] overflow-hidden">
+          <img
+            src="https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/q8phr9z7_33-3.jpg"
+            alt="Hand-block printed Ajrakh fabric in madder red and indigo"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </figure>
+
       <header className="pt-10 pb-2 px-6 text-center max-w-3xl mx-auto fade-stagger">
         <img src={LOGO_URL} alt="Devasaya" className="h-16 w-16 object-contain mx-auto mb-3 opacity-90" />
         <p className="eyebrow mb-2">About Devasaya</p>
@@ -19,20 +29,6 @@ export default function About() {
         <p>
           We work directly with master Khatri printers in Ajrakhpur and Dhamadka, the twin villages of Kutch where Ajrakh has been practiced for ten generations. Every piece you see on our site has spent at least three weeks in their hands. We do not have a factory. We have an atelier.
         </p>
-
-        <figure className="-mx-6 sm:mx-0 pt-4" data-testid="about-feature-image">
-          <div className="aspect-[21/9] overflow-hidden">
-            <img
-              src="https://customer-assets.emergentagent.com/job_ajrakh-artistry/artifacts/q8phr9z7_33-3.jpg"
-              alt="Hand-block printed Ajrakh fabric in madder red and indigo"
-              className="w-full h-full object-cover transition-transform duration-[1.6s] hover:scale-105"
-            />
-          </div>
-          <figcaption className="text-center mt-3 text-xs tracking-[0.3em] uppercase text-mutedink">
-            Madder & Indigo · Hand-block printed in Kutch
-          </figcaption>
-        </figure>
-
         <h2 className="serif-title text-4xl text-indigo pt-4">Our Promise</h2>
         <ul className="space-y-3 list-none">
           <li>· Hand-block printed, no machines, no shortcuts.</li>
